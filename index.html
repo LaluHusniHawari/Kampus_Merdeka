@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Redressed&family=Smooch+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>KALKULATOR JS</title>
+</head>
+
+<body>
+    <h1>KALKULATOR JS</h1>
+    <hr>
+
+    <div>
+        <form id="formulir">
+            <label> Angka 1</label>
+            <input type="text" name="a1" id="a1" onfocus="kosong1()" value="Angka 1" />
+            <label> Angka 2</label>
+            <input type="text" name="a2" id="a2" onfocus="kosong2()" value="Angka 2" />
+            <label> Hasil</label>
+            <input type="text" name="hasil" value="0" disabled />
+            <input type="button" name="tambah" value="+" onclick="pertambahan()" class="btn1" />
+            <input type="button" name="tambah" value="-" onclick="pengurangan()" class="btn2" />
+            <input type="button" name="tambah" value="X" onclick="perkalian()" class="btn3" />
+            <input type="button" name="tambah" value="/" onclick="pembagian()" class="btn4" />
+            <input type="button" name="tambah" value="^" onclick="pangkat()" class="btn5" />
+
+            <input type="button" name="batal" value="Batal" onclick="kosongAll()" class="btn6" />
+        </form>
+    </div>
+
+
+    <script src="js/script.js "></script>
+
+</body>
+
+</html>
