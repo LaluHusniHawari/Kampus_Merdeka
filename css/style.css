@@ -1,0 +1,20 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Century Gothic';
+    background-color: #ffffff;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 25pt;
+    margin: 20px 20px;
+    background-color: #395497;
+    color: #FBF8F1;
+    padding: 20px 15px;
+    text-align: center;
+}
