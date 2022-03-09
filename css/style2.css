@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    overflow-x: hidden;
+    background: #bbb3b3;
+}
+
+.company {
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 400px;
+    background-color: #31CB19;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.visi {
+    cursor: pointer;
+    padding: 15px 400px;
+    background-color: #38545A;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.deskripsi {
+    cursor: pointer;
+    padding: 15px 400px;
+    background-color: #387E95;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+h2 {
+    color: white;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-size: 14pt;
+}
+
+.company-title,
+.visi-title,
+.deskripsi-title {
+    text-align: justify;
+    background: white;
+    padding: 25px;
+}
+
+p {
+    line-height: 25px;
+}
+
+li {
+    margin-left: 50px;
+}

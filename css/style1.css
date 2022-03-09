@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 200px;
+    margin: auto;
+    background: rgb(236, 236, 236);
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+.container:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.card {
+    background-color: #31CB19;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 19px rgb(105, 78, 131);
+}
+
+h3 {
+    font-weight: 900;
+    font-family: 'Century Gothic';
+    margin-left: 10px;
+    color: white
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic';
+    text-align: left;
+    margin-left: 10px;
+    width: 200px;
+    padding: 2px;
+    line-height: 20px;
+}
+
+.hewan {
+    width: 100%;
+    height: 200px;
+    background-color: #38545A;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.hewan {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.hewan:hover {
+    -webkit-transform: scale(1.18);
+    transform: scale(1.18);
+}
