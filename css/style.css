@@ -1,0 +1,87 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.carousel-inner {
+    margin-top: 75px;
+}
+
+.container {
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+
+span {
+    color: chartreuse;
+}
+
+.navbar-brand {
+    font-family: 'Redressed', cursive;
+}
+
+.nav-link {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 20pt;
+}
+
+.card {
+    box-shadow: 5px 5px 15px rgb(8, 10, 39);
+    border-radius: 10px 50px;
+    margin-top: 65pt;
+}
+
+.card-img-top {
+    border-radius: 10px 50px;
+    box-shadow: 3px 3px 8px rgb(8, 10, 39);
+}
+
+.card-img-top {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 65px;
+}
+
+.card-img-top:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+footer {
+    font-size: 15pt;
+    color: white;
+    height: 50px;
+    background-color: #23282E;
+    padding: 3px;
+    margin-top: 80px;
+    overflow-y: hidden;
+}
+
+p {
+    text-align: justify;
+    padding-left: 2px;
+    margin-left: 2px;
+}
+
+.foto {
+    border-radius: 10px 50px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(61, 62, 117, 0.719);
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.foto:hover {
+    -webkit-transform: scale(1.28);
+    transform: scale(1.08);
+}
+
+.header {
+    background-color: green;
+    color: white;
+}
+
+.accordion {
+    font-family: 'Century Gothic';
+}
